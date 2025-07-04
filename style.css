@@ -1,0 +1,94 @@
+
+
+
+#navbar {
+    /* border: solid 2px red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #101705;
+    margin: -8px;
+    
+}
+
+#navbar a {
+    /* border: solid 2px purple; */
+    padding-right: 30px;
+    font-size: larger;
+    text-decoration: none;
+    color: #929889;
+}
+
+#navbar h2 {
+    /* border: solid 2px blue; */
+    font-size: 27px;
+    padding-left: 15px;
+    color: #929889    
+    }
+
+#coffee-shop img {
+    width: 70%;
+    margin: auto;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#main {
+    margin-left: -8px;
+    margin-right: -8px;
+    background-color: #41521f;
+    color: #101705;
+}
+
+#main p {
+    font-size: larger;
+    font-weight: 600;
+    padding: 20px;
+}
+
+body {
+    background-color: #41521f;
+}
+
+#drinks-main {
+    color: #101705;
+}
+
+.center-text {
+       text-align: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #101705;
+    color: #929889;
+}
+
+#footer a {
+    font-size: 27px;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #929889
+    
+    
+}
+
+#cezve {
+    width: 35%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.bob {
+    padding-bottom: 30px;
+}
+
+
