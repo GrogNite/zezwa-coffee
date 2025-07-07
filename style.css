@@ -1,14 +1,16 @@
 
 
-
+/* Navbar */
 #navbar {
     /* border: solid 2px red; */
+    /* position: fixed;
+    top: 0;
+    width: 100%;  */
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #101705;
-    margin: -8px;
-    
+    margin: -8px;    
 }
 
 #navbar a {
@@ -26,40 +28,86 @@
     color: #929889    
     }
 
+
+/* index.html-main-image */
 #coffee-shop img {
     width: 70%;
     margin: auto;
     padding-top: 70px;
     display: flex;
     justify-content: center;
-
 }
 
+/* main-page-contents */
 #main {
+    /* border: solid 2px red; */
+    /* margin: 70px 0%; */
     margin-left: -8px;
     margin-right: -8px;
-    background-color: #41521f;
     color: #101705;
 }
 
 #main p {
-    font-size: larger;
+    font-size: 22px;
     font-weight: 600;
     padding: 20px;
+
 }
 
 body {
     background-color: #41521f;
 }
 
-#drinks-main {
-    color: #101705;
-}
 
 .center-text {
        text-align: center;
 }
 
+/* index.html-bottom-image */
+#cezve {
+    width: 35%;
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* index.html-H3-tag */
+.bob {
+    padding-bottom: 30px;
+}
+
+/* drink-menu-main  */
+#drink-menu-main {  
+    padding-top: 10%;  
+    display: flex;
+    justify-content: space-around;
+    text-align: center;  
+}
+
+.drink-name-size {
+    font-size: 30px;
+}
+
+.price-font-size {
+    font-size: 25px;
+}
+
+#drink-menu-main img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    /* border-radius: 10px; */
+    border: 2px solid black;
+    /* transition: all ease-in-out 0.5s; */
+}
+
+#drink-menu-main img:hover {
+    transform: scale(1.2);
+}
+
+/* Footer */
 #footer {
     position: fixed;
     bottom: 0;
@@ -73,22 +121,9 @@ body {
     font-size: 27px;
     text-decoration: none;
     padding-left: 20px;
-    color: #929889
-    
-    
+    color: #929889 
 }
 
-#cezve {
-    width: 35%;
-    margin: auto;
-    padding-top: 60px;
-    padding-bottom: 10px;
-    display: flex;
-    justify-content: center;
-}
 
-.bob {
-    padding-bottom: 30px;
-}
 
 
