@@ -147,15 +147,26 @@ body {
 } */
 
 .leaf-1 {
-    width: 110px;
+    /* border: solid 1px black; */
+    width: 100%;
+    align-self: end;
+    transform: rotateX(180deg) translateX(4em) translateY(0.5em);
+    /* padding-left: 3em; */
 }
 
 .leaf-2 {
-    width: 110px;
+    /* border: solid 1px black;         */
+    width: 100%;
+    transform: rotateY(180deg) translateX(3em);
+    
+    
+
 }
 
 .leaf-column {
-    display: flex;
+    height: 100;
+    display: grid;
+    grid-template-columns: 15% auto 15%;
 }
 
 /* .leaf {
@@ -170,8 +181,8 @@ body {
  */
 
 
-.coffee-text {
+/* .coffee-text {
     width: 70%;
     padding-left: 15%;
-}
+} */
 
