@@ -28,7 +28,7 @@
     padding-left: 15px;
     padding-top: 25px;
     color: #929889    
-    }
+}
 
 
 /* index.html-main-image */
@@ -54,9 +54,6 @@
     font-size: 22px;
     font-weight: 600;
     padding: 20px;
-    
-
-
 }
 
 body {
@@ -145,4 +142,36 @@ body {
     color: #929889 
 }
 
+/* .leaf img {
+    width: 110px;
+} */
+
+.leaf-1 {
+    width: 110px;
+}
+
+.leaf-2 {
+    width: 110px;
+}
+
+.leaf-column {
+    display: flex;
+}
+
+/* .leaf {
+    width: 110px;    
+    transform: translate(8vw) translateY(-100px) scaleY(-1);
+}
+
+.leaf-2 {
+    width: 110px;
+    transform: translate(80vw) translateY(60px) scaleX(-1);  
+}
+ */
+
+
+.coffee-text {
+    width: 70%;
+    padding-left: 15%;
+}
 
