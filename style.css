@@ -15,7 +15,7 @@
 
 #navbar a {
     /* border: solid 2px purple; */
-    padding-right: 30px;
+    padding-right: 30px;    
     font-size: larger;
     text-decoration: none;
     color: #929889;
@@ -24,7 +24,9 @@
 #navbar h2 {
     /* border: solid 2px blue; */
     font-size: 27px;
+    margin: 0;
     padding-left: 15px;
+    padding-top: 25px;
     color: #929889    
     }
 
@@ -44,13 +46,16 @@
     /* margin: 70px 0%; */
     margin-left: -8px;
     margin-right: -8px;
-    color: #101705;
+    /* font-color */
+    color:black;
 }
 
 #main p {
     font-size: 22px;
     font-weight: 600;
     padding: 20px;
+    
+
 
 }
 
@@ -88,6 +93,7 @@ body {
 
 .drink-name-size {
     font-size: 30px;
+       
 }
 
 .price-font-size {
@@ -107,6 +113,21 @@ body {
     transform: scale(1.2);
 }
 
+.assorted {
+   margin: 0;
+   padding-top: 30px;    
+}
+
+.sweets {
+    margin-top: 0;
+    margin-bottom: 0;    
+}
+
+.sweets-price {
+    margin: 0;
+    padding-top: 16px;
+}
+
 /* Footer */
 #footer {
     position: fixed;
@@ -123,7 +144,5 @@ body {
     padding-left: 20px;
     color: #929889 
 }
-
-
 
 
