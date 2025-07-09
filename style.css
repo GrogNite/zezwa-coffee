@@ -157,10 +157,7 @@ body {
 .leaf-2 {
     /* border: solid 1px black;         */
     width: 100%;
-    transform: rotateY(180deg) translateX(3em);
-    
-    
-
+    transform: rotateY(180deg) translateX(3em);   
 }
 
 .leaf-column {
